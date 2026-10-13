@@ -167,13 +167,28 @@ section {
         .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
 
         /* QUOTE */
-        .quote-section {
-            padding: 120px 20px; text-align: center; color: #ffffff;
-            background: linear-gradient(rgba(30, 20, 16, 0.6), rgba(30, 20, 16, 0.6)),
-                        url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdi3l2fLxIYYNuT5BRg3nEvqZldxFtoWPb8VEEAflu9I4nmnypHyOBFzFIXrxjCvmKILXxdGD1iw1_EQ-zWosDBvjqRiOwiZV3T8HuEXfpHMQB49tkpYzHtd9aRtfqu5t79l9cxEc8xlpyJjGtHJc94Hl58gkMEmTkGSJii0XmMuYwvXb5AwllcUtj08E/w640-h426/pm%20(1).jpg") center/cover no-repeat;
-        }
-        .quote-box { max-width: 750px; margin: 0 auto; }
-        .quote-symbol { font-family: var(--font-serif); font-size: 60px; }
+.quote-section {
+    padding: 120px 20px;
+    text-align: center;
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            rgba(30, 20, 16, 0.6),
+            rgba(30, 20, 16, 0.6)
+        ),
+        url("./image1.jpg") center/cover no-repeat;
+}
+
+.quote-box {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.quote-symbol {
+    font-family: var(--font-serif);
+    font-size: 60px;
+}
 
         /* VENUE */
         .venue { background: var(--bg-card); text-align: center; }
